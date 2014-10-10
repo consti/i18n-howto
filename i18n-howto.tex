@@ -109,7 +109,7 @@ Adapt for different regions: e.g. en-US (American English: color) vs. en-UK (Bri
 
 \begin{block}{Rules}
 
-Either add your own \lstinline{config/plurals.rb} or add \lstinline{gem 'rails-18n'} to your GEMFILE.
+Either add your own \lstinline{config/plurals.rb} or add \lstinline{gem 'rails-i18n'} to your GEMFILE.
 
 \end{block}
 
@@ -118,7 +118,7 @@ Either add your own \lstinline{config/plurals.rb} or add \lstinline{gem 'rails-1
 # de:
 #   plurals:
 #     elephant:
-#       zero: 'Elefant'
+#       zero: 'Elefanten'
 #       one: 'Elefant'
 #       other: 'Elefanten'
 
@@ -206,6 +206,8 @@ The \href{https://github.com/globalize/globalize}{\lstinline{i18n-tasks}} gem he
 \begin{block}{Use a webservice}
 
 Use a webservice such as \href{http://localeapp.com}{LocaleApp} or \href{http://webtranslateit.com}{WebTranslateIt} to get files translated.
+
+Set rules for translators (otherwise the translation of certain words might differ).
 
 \end{block}
 
