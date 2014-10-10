@@ -1,0 +1,16 @@
+\frametitle{SEO}
+
+\begin{block}{Target countries with different TLDs}
+Use Google Webmaster tools to target different countries based on your domain.
+
+This only works with gTLDs (generic top-level domain names: e.g. \lstinline{.com, .net}) and not with ccTLDs (country-code top-level domain names: e.g. \lstinline{.de, .th}).
+
+\Small{See \href{https://support.google.com/webmasters/answer/1347922}{https://support.google.com/webmasters/answer/1347922}}
+
+\end{block}
+
+\begin{block}{Analytics}
+Make sure to track traffic changes in analytics based on countries and locales. Adjust country targeting appropriately.
+\end{block}
+
+
