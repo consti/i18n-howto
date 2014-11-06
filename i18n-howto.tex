@@ -242,6 +242,23 @@ If a user chooses a locale, make sure to save it in the database.
 
 \end{frame}
 
+\begin{frame}[fragile]{Application Gotchas}
+\begin{block}{Fragment Caching}
+  When using fragment caching with \lstinline{cache}, make sure to include `I18n.locale` in the cache key
+\begin{lstlisting}
+  # in helpers/cache_helper.rb
+  before_action :set_locale
+
+  def cache(*args, &block)
+    args[0] = [I18n.locale, *args[0]]
+    super(*args, &block)
+  end
+\end{lstlisting}
+
+\end{block}
+
+\end{frame}
+
 \begin{frame}[fragile]{SEO gotchas}
 
 \begin{block}{SEO?}

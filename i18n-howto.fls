@@ -349,6 +349,9 @@ INPUT i18n-howto.vrb
 OUTPUT i18n-howto.vrb
 INPUT i18n-howto.vrb
 INPUT i18n-howto.vrb
+OUTPUT i18n-howto.vrb
+INPUT i18n-howto.vrb
+INPUT i18n-howto.vrb
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
