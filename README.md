@@ -5,6 +5,8 @@ Internationalization (i18n) and Localization (l10n) in Rails How-To
 
 [Download the slides](https://github.com/consti/i18n-howto/blob/master/i18n-howto.pdf)
 
+Feel free to [fork](https://github.com/consti/i18n-howto/fork), contribute and share!
+
 Content
 =======
 
