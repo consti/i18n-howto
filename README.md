@@ -5,6 +5,41 @@ Internationalization (i18n) and Localization (l10n) in Rails How-To
 
 [Download the slides](https://github.com/consti/i18n-howto/blob/master/i18n-howto.pdf)
 
+Content
+=======
+
+* Definitions
+  * i18n, l10n
+* Preparations
+  * Raise an exception on missing translations
+  * Instead of I18n.t() use t() shortcut in tests
+* Best practices
+  * Make sure things look pretty with a different text length
+  * Internationalize user interface
+  * Use correct ISO code for locale
+  * Pluralization
+  * Interpolation
+* i18n: Front end
+  * Regular views
+  * Static javascript / coffeescript
+* i18n: Database
+  * ActiveRecord models
+* Tools
+  * i18n-tasks
+  * l10n: webservices
+* Application Logic
+  * `before_action`
+  * store prefered locale in `User` model
+* Application Gotchas
+  * Fragment Caching
+* SEO Gotchas
+  * Determine the locale (URL structure)
+  * Duplicate content?
+  * Sitemaps
+  * `hreflang` link tags
+  * TLDs, gTLDs, ccTLDs
+  * Analytics
+
 
 License
 ==========
