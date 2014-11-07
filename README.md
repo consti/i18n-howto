@@ -3,7 +3,7 @@ i18n-howto
 
 Internationalization (i18n) and Localization (l10n) in Rails How-To / best practices.
 
-[Download the slides](https://github.com/consti/i18n-howto/blob/master/i18n-howto.pdf)
+[Download the slides](https://github.com/consti/i18n-howto/blob/master/i18n-howto.pdf?raw=true)
 
 These slides are the result of a Show & Tell at [OOZOU](http://oozou.com/) in Bangkok, Thailand.
 
